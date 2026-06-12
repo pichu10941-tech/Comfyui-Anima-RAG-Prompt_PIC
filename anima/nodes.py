@@ -1198,7 +1198,6 @@ class PIC_StyleDirector:
 
 NODE_CLASS_MAPPINGS = {
     "PIC_AnimaPMIExpand": AnimaPMIExpand,
-    "PIC_AnimaRAGSearch": AnimaPMIExpand,  # legacy workflow compatibility
     "PIC_AnimaPromptAssembler": AnimaPromptAssembler,
     "PIC_GGUFTextLLM": PIC_GGUFTextLLM,
     "PIC_StyleDirector": PIC_StyleDirector,
@@ -1206,7 +1205,6 @@ NODE_CLASS_MAPPINGS = {
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "PIC_AnimaPMIExpand": "PIC - Anima PMI Expand",
-    "PIC_AnimaRAGSearch": "PIC - Anima PMI Expand (legacy id)",
     "PIC_AnimaPromptAssembler": "PIC - Anima Prompt Assembler",
     "PIC_GGUFTextLLM": "PIC - GGUF Text LLM",
     "PIC_StyleDirector": "PIC - Style Director",
